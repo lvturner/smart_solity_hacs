@@ -1,0 +1,14 @@
+{
+  "domain": "smart_solity",
+  "name": "Smart Solity Lock",
+  "codeowners": ["@lvturner"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/smart_solity",
+  "homekit": {},
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
