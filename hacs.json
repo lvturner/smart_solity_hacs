@@ -1,1 +1,5 @@
-{ "name": "Smart Solity Lock" }
+{ 
+  "name": "Smart Solity Lock".
+  "content_in_root": false,
+  "render_readme": true
+}
