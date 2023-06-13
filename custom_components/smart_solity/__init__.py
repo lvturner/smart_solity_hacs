@@ -7,10 +7,10 @@ from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
-from homeassistant.components.smart_solity.smartsolity_lock_lib.lock_control import (
+from .smartsolity_lock_lib.lock_control import (
     LockControl,
 )
-from homeassistant.components.smart_solity.smartsolity_lock_lib.auth import (
+from .smartsolity_lock_lib.auth import (
     Auth,
 )
 from .lock import Lock

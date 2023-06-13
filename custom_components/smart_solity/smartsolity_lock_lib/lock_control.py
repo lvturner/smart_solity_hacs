@@ -1,8 +1,8 @@
 import json
-from homeassistant.components.smart_solity.smartsolity_lock_lib.lock_device import (
+from .lock_device import (
     LockDevice,
 )
-from homeassistant.components.smart_solity.smartsolity_lock_lib.auth import Auth
+from .auth import Auth
 
 
 class LockControl:

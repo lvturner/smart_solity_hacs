@@ -3,7 +3,7 @@ from __future__ import annotations
 from homeassistant.components.lock import LockEntity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
-from homeassistant.components.smart_solity.smartsolity_lock_lib.lock_control import (
+from .smartsolity_lock_lib.lock_control import (
     LockControl,
 )
 

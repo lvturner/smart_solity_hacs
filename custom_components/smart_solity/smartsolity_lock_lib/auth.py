@@ -1,8 +1,8 @@
 import os
-from homeassistant.components.smart_solity.smartsolity_lock_lib.abstract_auth import (
+from .abstract_auth import (
     AbstractAuth,
 )
-from homeassistant.components.smart_solity.smartsolity_lock_lib.token_manager import (
+from .token_manager import (
     TokenManager,
 )
 from aiohttp import ClientSession
