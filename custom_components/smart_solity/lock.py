@@ -8,7 +8,9 @@ from .smartsolity_lock_lib.lock_control import (
 )
 
 from .const import DOMAIN
+from datetime import timedelta
 
+SCAN_INTERVAL = timedelta(seconds=5)
 
 async def async_setup_entry(
     hass: HomeAssistant, config_entry: ConfigEntry, async_add_entities
